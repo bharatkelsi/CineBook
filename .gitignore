@@ -1,0 +1,49 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# Next.js build outputs
+/.next/
+/out/
+/build
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Local Environment Variables & Secrets (NEVER commit secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Vercel
+.vercel
+
+# Local SQLite database & heavy local backups/dumps
+/prisma/dev.db
+/prisma/dev.db-journal
+/prisma/backup/
+/prisma/seed_postgres.sql
+
+# Generated local database history snapshots
+/database-history/*.json
+/database-history/ALL_HISTORY_SUMMARY.md
+
+# Local test artifacts & Windows wrapper scripts
+/public/uploads/test-poster_*.png
+node.cmd
+node.ps1
+npm.bat
+npm.cmd
+npm.ps1
+dev.bat
+run.bat
+
+# OS / Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
